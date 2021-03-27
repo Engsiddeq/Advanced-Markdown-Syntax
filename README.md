@@ -22,7 +22,7 @@ for example <img src="./img/1.png">
 </table>
 </details>
 
-----------------
+
 <details>
 <summary>&nbsp;&nbsp;&nbsp; New Lines</summary> 
 <table>
@@ -31,7 +31,7 @@ for example <img src="./img/1.png">
 </table>
 </details>
 
----------------------
+
 <details>
 <summary>&nbsp;&nbsp;&nbsp; New Lines in a Table</summary> 
 <strong>This is not Possible, What you can do instead is this</strong> <pre>
@@ -121,7 +121,7 @@ Status | Response
 
 </details>
 
--------------------
+
 <details>
   <summary>&nbsp;&nbsp;&nbsp;you may need the &lt;pre> Tag</summary>
 Text in a &lt;pre> Tag preserves both spaces and line breaks.
@@ -129,7 +129,7 @@ Text in a &lt;pre> Tag preserves both spaces and line breaks.
 Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag to contain blank lines. As markdown inside pre block is not parsed. I would prefer not to do this, instead add as many &lt;br>'s as needed.
 </details>
 
----------------
+
 </details>
 
 ----------------------
@@ -289,7 +289,7 @@ json
 ### if you want to write an html code and disable it put it inside &grave;&grave;&grave; code &grave;&grave;&grave;
 </details>
 
--------------------
+
 ## Advanced Syntax
 
 <br />
