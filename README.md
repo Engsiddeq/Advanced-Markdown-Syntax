@@ -101,7 +101,6 @@ json
 </tr>
 </table>
 
-</details>
 
 ### or maybe use something like this
 ```
@@ -120,10 +119,13 @@ Status | Response
 
 </details>
 
+<details>
+  <summary>you may need the &lt;pre> Tag</summary>
+Text in a &lt;pre> Tag preserves both spaces and line breaks.
+</details>
+</details>
 
-|Element | Markdown Syntax|
-|--------|----------------|
-|``|
+
 
 ## Advanced Syntax
 
