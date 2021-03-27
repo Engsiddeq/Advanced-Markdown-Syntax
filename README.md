@@ -1,4 +1,4 @@
-# بسم الله الكريم
+# بسم الله الكريم {#some-heading-id}
 # Advanced-Markdown-Syntax
 ## Table of contents
 
@@ -423,7 +423,7 @@ and in HTML you can write this
 ```html
 <h3 id="custom-id">My Great Heading</h3>
 ```
-### My Great Heading {#some-heading-id}
+### My Great Heading 
 For exmaple
 
 |MarkDown|HTML|Rendered Output|
