@@ -1,3 +1,4 @@
+# بسم الله الكريم
 # Advanced-Markdown-Syntax
 ## Table of contents
 ## [Good cheat sheet of Basic syntax can be found here](https://www.markdownguide.org/basic-syntax/#overview).
@@ -8,6 +9,8 @@
   <summary>=== and ---</summary> 
  === is the same as # for header one, and --- is the same as ## header 2
 for example <img src="./img/1.png">
+
+-----
 </details>
 
 
@@ -20,6 +23,8 @@ for example <img src="./img/1.png">
 <tr><th>Markdown</th><th>HTML</th></tr>
 <tr><td>just use the Space Bar</td><td> Use the non breaking space entity <strong>&amp;nbsp;</strong></td></tr>
 </table>
+
+--------
 </details>
 
 
@@ -29,6 +34,10 @@ for example <img src="./img/1.png">
 <tr><th>Markdown</th><th>HTML</th></tr>
 <tr><td>you can end a line by adding two or more spaces at the end</td><td> Use the breaking line tag<strong>&lt;br></strong></td></tr>
 </table>
+
+Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag to contain blank lines. As markdown inside pre block is not parsed. I would prefer not to do this, instead add as many &lt;br>'s as needed.
+
+--------
 </details>
 
 
@@ -119,6 +128,7 @@ Status | Response
 200    | <code>json {"id": 10,"username": "created_at": "2015-02-14T20:45:26.433Z" }</code>
 400    | <code>json {"id": 10,"username": "alanpartridge", "email": "alan@alan.com": "2015-02-14T20:45:26.433Z"}</code>
 
+-----------
 </details>
 
 
@@ -127,6 +137,8 @@ Status | Response
 Text in a &lt;pre> Tag preserves both spaces and line breaks.
 
 Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag to contain blank lines. As markdown inside pre block is not parsed. I would prefer not to do this, instead add as many &lt;br>'s as needed.
+
+-------------
 </details>
 
 ----------
@@ -139,12 +151,16 @@ Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag t
   or alternativlly you can do this
   
 ![](/img/2.png)
+
+---------
 </details>
 
 
 <details>
   <summary>indentation several lines by four spaces or one tab</summary>
   This creates a code blocks and it's the same as using &grave;&grave;&grave; code&grave;&grave;&grave;
+
+----
 </details>
 
 
@@ -152,6 +168,8 @@ Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag t
   <summary>Horizontal Rules</summary> 
 
 ![](/img/3.png)
+
+-------
 </details>
 
 
@@ -226,6 +244,7 @@ Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag t
   </tbody>
 </table>
 
+-----
  </details>
 
 
@@ -287,9 +306,34 @@ json
 </table>
 
 ### if you want to write an html code and disable it put it inside &grave;&grave;&grave; code &grave;&grave;&grave;
+
+------
 </details>
 
 ---------
 ## Advanced Syntax
 
-<br />
+
+<details>
+  <summary>A collapsible section</summary>
+  
+  ### Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+
+## How is it made?
+```
+<details>
+  <summary>A collapsible section</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+```
+</details>
+
