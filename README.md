@@ -13,16 +13,11 @@ for example <img src="./img/1.png">
 <details>
   <summary> spaces and new lines</summary> 
     <details>
-  <summary>&nbsp;&nbsp;&nbsp; `(space)</summary> 
-<code>
-### Backticks with a space inside followed by two spaces
-`(space)`(space)(space)
-`(space)`(space)(space)
-</code>
-
-
-would render as
-
+  <summary>&nbsp;&nbsp;&nbsp; Spaces</summary> 
+<table>
+<tr><th>Markdown</th><th>HTML</th></tr>
+<tr><td>just use the Space Bar</td><td> Use th non breaking space entity <strong>&amp;nbsp;</strong></td></tr>
+</table>
 
 </details>
 </details>
@@ -88,4 +83,3 @@ json
 </table>
 </details>
 <br />
-
