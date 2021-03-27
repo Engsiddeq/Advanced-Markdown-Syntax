@@ -103,7 +103,12 @@ json
 
 </details>
 
+### or maybe use something like this
 
+Status | Response
+:----- | :-------
+200    | <code>json {"id": 10,"username": "alanpartridge", "email": "alan@alan.com",<br>"password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS", "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",<br> "created_at": "2015-02-14T20:45:26.433Z", "updated_at": "2015-02-14T20:45:26.540Z" }</code>
+400    | <code>json {"id": 10,"username": "alanpartridge", "email": "alan@alan.com",<br>"password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS", "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",<br> "created_at": "2015-02-14T20:45:26.433Z", "updated_at": "2015-02-14T20:45:26.540Z" }</code>
 </details>
 
 
