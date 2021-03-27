@@ -32,7 +32,7 @@ for example <img src="./img/1.png">
 
 <details>
 <summary>&nbsp;&nbsp;&nbsp; New Lines in a Table</summary> 
-This is not Possible, What you can do instead is this <pre>
+<strong>This is not Possible, What you can do instead is this</strong> <pre>
 <Code>
 | Status | Response  |
 | ------ | --------- |
@@ -46,6 +46,8 @@ This is not Possible, What you can do instead is this <pre>
 
 </Code>
 </pre>
+
+<strong>or use HTML as in</strong>
 </details>
 
 
@@ -57,13 +59,15 @@ This is not Possible, What you can do instead is this <pre>
 |``|
 
 ## Advanced Syntax
+
 <details>
 <summary>Github Markdown Supports HTML Tag so you can just write HTMl and it would be Rendered
 For example : </summary>  
 
 Consider the Following Code
 
-``` 
+<code>
+<pre>
 <table>
 <tr><th>Status</th><th>Response</th></tr>
 
@@ -85,13 +89,15 @@ json
 </td>
 </tr>
 </table>
-```
-### if you just put it in the code it will appear like 
+</pre>
+</code>
+
+
+### if you just put it in the code it will appear like:
 
 
 <table>
 <tr><th>Status</th><th>Response</th></tr>
-
 <tr><td><pre><br/><br/><br/>200<br/><br/><br/><br/><br/>400<br/></pre>
 </td>
 <td>
