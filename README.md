@@ -47,7 +47,7 @@ for example <img src="./img/1.png">
 </Code>
 </pre>
 
-<strong>or use HTML as in</strong>
+### <strong>or use HTML just like this</strong>
 </details>
 
 
@@ -65,7 +65,7 @@ for example <img src="./img/1.png">
 For example : </summary>  
 
 Consider the Following Code
-
+```
 <code>
 <pre>
 <table>
@@ -89,8 +89,7 @@ json
 </td>
 </tr>
 </table>
-</pre>
-</code>
+```
 
 
 ### if you just put it in the code it will appear like:
@@ -116,5 +115,8 @@ json
 </td>
 </tr>
 </table>
+
+### if you want to write an html code and disable it put it inside ``` code ```
 </details>
+
 <br />
