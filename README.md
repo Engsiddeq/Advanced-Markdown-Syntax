@@ -12,14 +12,43 @@ for example <img src="./img/1.png">
 
 <details>
   <summary> spaces and new lines</summary> 
-    <details>
+
+<details>
   <summary>&nbsp;&nbsp;&nbsp; Spaces</summary> 
 <table>
 <tr><th>Markdown</th><th>HTML</th></tr>
-<tr><td>just use the Space Bar</td><td> Use th non breaking space entity <strong>&amp;nbsp;</strong></td></tr>
+<tr><td>just use the Space Bar</td><td> Use the non breaking space entity <strong>&amp;nbsp;</strong></td></tr>
 </table>
-
 </details>
+
+<details>
+<summary>&nbsp;&nbsp;&nbsp; New Lines</summary> 
+<table>
+<tr><th>Markdown</th><th>HTML</th></tr>
+<tr><td>you can end a line by adding two or more spaces at the end</td><td> Use the breaking line tag<strong>&lt;br></strong></td></tr>
+</table>
+</details>
+
+
+<details>
+<summary>&nbsp;&nbsp;&nbsp; New Lines in a Table</summary> 
+This is not Possible, What you can do instead is this <pre>
+<Code>
+| Status | Response  |
+| ------ | --------- |
+| 200    | `json`                          |
+|        | `   {`                          |
+|        | ` "id": 10,`                    |
+|        | ` "username": "alanpartridge",` |
+|        | ` more code...`                 |
+|        | `}`                             |
+| 400    |                                 |
+
+</Code>
+</pre>
+</details>
+
+
 </details>
 
 
