@@ -369,6 +369,8 @@ json
 
 <details>
   <summary>Footnotes</summary>
+
+  ### GitHub Flavored Markdown doesn't support footnotes
   
 ```
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
@@ -383,6 +385,8 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
     Add as many paragraphs as you like.
 ```
+
+
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 [^1]: This is the first footnote.
@@ -395,6 +399,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
     Add as many paragraphs as you like.
 
+
 ------
 </details>
 
@@ -405,3 +410,26 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 
 
+<details>
+  <summary>Heading IDs</summary>
+In mark down you can write this
+
+```
+ ### My Great Heading {#custom-id}
+```
+
+and in HTML you can write this 
+
+```html
+<h3 id="custom-id">My Great Heading</h3>
+```
+### My Great Heading {#some-heading-id}
+For exmaple
+
+|MarkDown|HTML|Rendered Output|
+|--------|----|---------------|
+` [see this section](#some-heading-id)` | <a href="#some-heading-id">see this section</a> | [see this section](#some-heading-id)
+
+
+----
+</details>
