@@ -126,10 +126,15 @@ Text in a &lt;pre> Tag preserves both spaces and line breaks.
 Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag to contain blank lines. As markdown inside pre block is not parsed. I would prefer not to do this, instead add as many &lt;br>'s as needed.
 </details>
 
+</details>
+
+
 <details>
   <summary>Escaping Backticks</summary>
+  you can use the html entity &grave&semi;   
+  or alternativlly you can do this
   
-  ![./img/2.png]
+![](/img/2.png)
 </details>
 
 <details>
@@ -137,9 +142,81 @@ Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag t
   This creates a code blocks and it's the same as using &grave;&grave;&grave; code&grave;&grave;&grave;
 </details>
 
+<details>
+  <summary>Horizontal Rules</summary>  
+![](/img/3.png)
 </details>
 
-
+<details>
+  <summary>Escaping Characters</summary>  
+To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Character</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\</td>
+      <td>backslash</td>
+    </tr>
+    <tr>
+      <td>`</td>
+      <td>backtick </td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>asterisk</td>
+    </tr>
+    <tr>
+      <td>_</td>
+      <td>underscore</td>
+    </tr>
+    <tr>
+      <td>{ }</td>
+      <td>curly braces</td>
+    </tr>
+    <tr>
+      <td>[ ]</td>
+      <td>brackets</td>
+    </tr>
+    <tr>
+      <td>&lt; &gt;</td>
+      <td>angle brackets</td>
+    </tr>
+    <tr>
+      <td>( )</td>
+      <td>parentheses</td>
+    </tr>
+    <tr>
+      <td>#</td>
+      <td>pound sign</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>plus sign</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>minus sign (hyphen)</td>
+    </tr>
+    <tr>
+      <td>.</td>
+      <td>dot</td>
+    </tr>
+    <tr>
+      <td>!</td>
+      <td>exclamation mark</td>
+    </tr>
+    <tr>
+      <td>|</td>
+      <td>pipe</td>
+    </tr>
+  </tbody>
+</table>
+</details>
 
 ## Advanced Syntax
 
