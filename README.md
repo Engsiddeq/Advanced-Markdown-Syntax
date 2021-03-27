@@ -1,9 +1,12 @@
 # بسم الله الكريم
 # Advanced-Markdown-Syntax
 ## Table of contents
-## [Good cheat sheet of Basic syntax can be found here](https://www.markdownguide.org/basic-syntax/#overview).
 
-### Here's some highlights of that Basic Syntax
+
+----------
+## Here's some highlights of that Basic Syntax
+
+### [Good cheat sheet of Basic syntax can be found here](https://www.markdownguide.org/basic-syntax/#overview).
 
 <details>
   <summary>=== and ---</summary> 
@@ -323,7 +326,7 @@ json
      * With some
      * Sub bullets
 
-## How is it made?
+### How is it made?
 ```
 <details>
   <summary>A collapsible section</summary>
@@ -335,5 +338,28 @@ json
      * Sub bullets
 </details>
 ```
+### For already open
+<details open>
+<summary>Already open</summary>
+<p>...</p>
+</details> 
+
+```
+<details open>
+<summary>Already open</summary>
+<p>...</p>
+</details> 
+```
+</details>
+
+<details>
+  <summary>A collapsible section</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+------
 </details>
 
