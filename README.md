@@ -10,7 +10,7 @@
 for example <img src="./img/1.png">
 </details>
 
-----------------
+
 <details>
   <summary> spaces and new lines</summary> 
 
@@ -129,10 +129,10 @@ Text in a &lt;pre> Tag preserves both spaces and line breaks.
 Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag to contain blank lines. As markdown inside pre block is not parsed. I would prefer not to do this, instead add as many &lt;br>'s as needed.
 </details>
 
-
+----------
 </details>
 
-----------------------
+
 <details>
   <summary>Escaping Backticks</summary>
   you can use the html entity &grave&semi;   
@@ -141,20 +141,20 @@ Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag t
 ![](/img/2.png)
 </details>
 
------------
+
 <details>
   <summary>indentation several lines by four spaces or one tab</summary>
   This creates a code blocks and it's the same as using &grave;&grave;&grave; code&grave;&grave;&grave;
 </details>
 
---------
+
 <details>
   <summary>Horizontal Rules</summary> 
 
 ![](/img/3.png)
 </details>
 
-----------
+
 <details>
   <summary>Escaping Characters</summary>  
  To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
@@ -228,7 +228,7 @@ Markdown treats multiple blank lines as one blank line, you could &lt;pre> tag t
 
  </details>
 
------------
+
 
 <details>
 <summary>Github Markdown Supports HTML Tag so you can just write HTMl and it would be Rendered
@@ -289,7 +289,7 @@ json
 ### if you want to write an html code and disable it put it inside &grave;&grave;&grave; code &grave;&grave;&grave;
 </details>
 
-
+---------
 ## Advanced Syntax
 
 <br />
