@@ -1,12 +1,26 @@
 # بسم الله الكريم {#some-heading-id}
 # Advanced-Markdown-Syntax
-## Table of contents
 
 
 ----------
 ## Here's some highlights of that Basic Syntax
 
 ### [Good cheat sheet of Basic syntax can be found here](https://www.markdownguide.org/basic-syntax/#overview).
+
+
+<details>
+  <summary>add links and images</summary>
+  
+Link|img
+---|----
+`[title](https://www.example.com)`|`![alt text](image.jpg)`
+
+
+----
+</details>
+
+
+
 
 <details>
   <summary>=== and ---</summary> 
@@ -412,7 +426,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 <details>
   <summary>Heading IDs</summary>
-  
+
 ### My Great Heading
 In mark down you can write this
 
@@ -425,7 +439,6 @@ and in HTML you can write this
 ```html
 <h3 id="custom-id">My Great Heading</h3>
 ```
-### My Great Heading
 For exmaple
 
 |MarkDown|HTML|Rendered Output|
@@ -445,6 +458,87 @@ For exmaple
 
 
 
+<details>
+  <summary>Task Lists</summary>
+  
+```- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+----
+</details>
 
 
 
+
+<details>
+  <summary>Strikethrough</summary>
+  
+`~~The world is flat.~~ We now know that the world is round.`
+~~The world is flat.~~ We now know that the world is round.
+
+----
+</details>
+
+
+
+
+
+
+
+
+<details>
+  <summary>Emoji</summary>
+copy and paste the emoji into your Markdown-formatted text, or type emoji shortcode
+
+> Tip: If you're using a static site generator, make sure you encode HTML pages as UTF-8.
+
+### Using Emoji Shortcodes
+`That is so funny! :joy:`
+That is so funny! :joy:
+
+>Note: You can use [this list of emoji shortcodes](https://gist.github.com/rxaviers/7360908), but keep in mind that emoji shortcodes vary from application to application. Refer to your Markdown application's documentation for more information.
+
+----
+</details>
+
+
+
+
+
+<details>
+  <summary>URLs and Email Addresses</summary>
+To quickly turn a URL or email address into a link, enclose it in angle brackets.
+
+```
+<https://www.markdownguide.org>
+<fake@example.com>
+```
+<https://www.markdownguide.org>
+<fake@example.com>
+
+----
+</details>
+
+
+
+
+
+
+<details>
+  <summary>Disabling Automatic URL Linking</summary>
+  
+  Many Markdown processors automatically turn URLs into links. so you don't need to put them in \< \> but if you want them to appear as plain texts and not links you can disable that by putting backticks (`) around the url
+
+```
+`http://www.example.com`
+```
+`http://www.example.com`
+
+
+----
+</details>
