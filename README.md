@@ -461,7 +461,8 @@ For exmaple
 <details>
   <summary>Task Lists</summary>
   
-```- [x] Write the press release
+```
+- [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 ```
@@ -479,6 +480,7 @@ For exmaple
   <summary>Strikethrough</summary>
   
 `~~The world is flat.~~ We now know that the world is round.`
+
 ~~The world is flat.~~ We now know that the world is round.
 
 ----
@@ -499,6 +501,7 @@ copy and paste the emoji into your Markdown-formatted text, or type emoji shortc
 
 ### Using Emoji Shortcodes
 `That is so funny! :joy:`
+
 That is so funny! :joy:
 
 >Note: You can use [this list of emoji shortcodes](https://gist.github.com/rxaviers/7360908), but keep in mind that emoji shortcodes vary from application to application. Refer to your Markdown application's documentation for more information.
@@ -537,8 +540,9 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
 ```
 `http://www.example.com`
 ```
-http://www.example.com
+`http://www.example.com`
 
+it will appear as a code but there's no other choice, maybe we can replace some slashes and letters in the url with html entities, i didn't try it and i have no time to do now but maybe it works
 
 ----
 </details>
