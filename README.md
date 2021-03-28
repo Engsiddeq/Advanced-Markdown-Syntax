@@ -546,3 +546,83 @@ it will appear as a code but there's no other choice, maybe we can replace some 
 
 ----
 </details>
+
+
+
+<details>
+  <summary>Tables</summary>
+
+> you can't put Code blocks inside a table but you can put the codde in backticks (`)
+
+you can do some allignment to the left and right and center but i'm too lazy to state haow in this tutorial, google it if you need it..
+
+----
+</details>
+
+
+
+
+
+
+
+<details>
+  <summary>additional links</summary>
+  
+```
+[Website](http://www.serverless.com) • [Email Updates](http://eepurl.com/b8dv4P) • [Gitter](https://gitter.im/serverless/serverless) • [Forum](http://forum.serverless.com) • [Meetups](https://github.com/serverless-meetups/main) • [Twitter](https://twitter.com/goserverless) • [Facebook](https://www.facebook.com/serverless) • [Contact Us](mailto:hello@serverless.com)
+```
+[Website](http://www.serverless.com) • [Email Updates](http://eepurl.com/b8dv4P) • [Gitter](https://gitter.im/serverless/serverless) • [Forum](http://forum.serverless.com) • [Meetups](https://github.com/serverless-meetups/main) • [Twitter](https://twitter.com/goserverless) • [Facebook](https://www.facebook.com/serverless) • [Contact Us](mailto:hello@serverless.com)
+
+----
+</details>
+
+
+
+
+
+
+
+
+
+<details>
+  <summary>Badges</summary>
+  
+### example on badges
+
+```
+[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
+```
+[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
+
+### [List of Badges, in Markdown](https://naereen.github.io/badges/)	
+
+----
+</details>
+
+
+
+
+
+
+<details>
+  <summary>video</summary>
+  
+ To embed a YouTube video, use the `embed` macro (only YouTube is supported at this time):
+
+`[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]`
+
+[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]
+
+
+----
+</details>
+
+
+
+
+
+
+
+
+## Other Markdown Resources
+- [verb](https://www.npmjs.com/package/verb) -  Documentation generator for GitHub projects
