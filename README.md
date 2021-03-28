@@ -412,10 +412,12 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 <details>
   <summary>Heading IDs</summary>
+  
+### My Great Heading
 In mark down you can write this
 
 ```
- ### My Great Heading {#custom-id}
+ ### My Great Heading 
 ```
 
 and in HTML you can write this 
@@ -423,13 +425,26 @@ and in HTML you can write this
 ```html
 <h3 id="custom-id">My Great Heading</h3>
 ```
-### My Great Heading 
+### My Great Heading
 For exmaple
 
 |MarkDown|HTML|Rendered Output|
 |--------|----|---------------|
-` [see this section](#some-heading-id)` | <a href="#some-heading-id">see this section</a> | [see this section](#some-heading-id)
+` [see this section](#My-Great-Heading)` | <a href="custom-id">see this section</a> | [see this section](#My-Great-Heading)
 
+>The IDs are generated from the content of the header according to the following rules:
+>All text is converted to lowercase.
+> * All non-word text (e.g., punctuation, HTML) is removed.
+> * All spaces are converted to hyphens(-).
+> * Two or more hyphens in a row are converted to one.
+> * If a header with the same ID has already been generated, a unique incrementing number is appended, starting at 1.
 
 ----
 </details>
+
+
+
+
+
+
+
