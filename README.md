@@ -1,4 +1,4 @@
-# بسم الله الكريم {#some-heading-id}
+# بسم الله الكريم
 # Advanced-Markdown-Syntax
 
 
@@ -537,7 +537,7 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
 ```
 `http://www.example.com`
 ```
-`http://www.example.com`
+http://www.example.com
 
 
 ----
