@@ -443,7 +443,9 @@ For exmaple
 
 |MarkDown|HTML|Rendered Output|
 |--------|----|---------------|
-` [see this section](#My-Great-Heading)` | <a href="custom-id">see this section</a> | [see this section](#My-Great-Heading)
+` [see this section](#My-Great-Heading)` |```html
+<h3 id="custom-id">My Great Heading</h3>
+```| [see this section](#My-Great-Heading)
 
 >The IDs are generated from the content of the header according to the following rules:
 >All text is converted to lowercase.
