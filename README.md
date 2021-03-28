@@ -604,19 +604,6 @@ you can do some allignment to the left and right and center but i'm too lazy to 
 
 
 
-<details>
-  <summary>video</summary>
-  
- To embed a YouTube video, use the `embed` macro (only YouTube is supported at this time):
-
-`[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]`
-
-[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]
-
-
-----
-</details>
-
 
 
 
